@@ -1,0 +1,160 @@
+*{
+
+    margin:0;
+    padding:0;
+  }
+  
+   #navbar{
+      display:flex;
+      align-items:center;
+        position:relative;
+      top:0px;
+   }
+
+ #logo{
+
+   margin:10px 34px;
+   }
+
+ #logo img{
+
+          height:60px;
+         margin:3px 6px;
+   }
+
+
+#navbar ul{
+    display:flex;
+
+  }
+#navbar::before{
+  content:"";
+
+   background-color:black;
+  position:absolute;
+    top:0px;
+    lext:0px;
+   height:100%;
+   width:100%;
+  z-index: -1;
+  capacity:0.4;
+  }
+
+
+
+ #navbar ul li{
+   list-style:none;
+     font-size:1.3rem
+
+  }
+
+  #navbar ul li a{
+  color:white;
+  display:block;
+  padding: 3px 22px;
+   border-radius:20px;
+    text-decoration:none;
+
+  }
+
+   #navbar ul li a{
+
+      color:black;
+      background-color:white;
+    }
+
+     #home{
+      display: flex;
+       flex-direction: column;
+     padding:3px 200px;
+     height:628px;
+     justify-content:center;
+     align-items:center;
+    }
+
+  #home::before{
+      content:"";
+position:absolute;
+  
+
+ background:url('e9.jpg')no-repeat center center/cover;
+
+   top:0px;
+    lext:0px;
+   height:100%;
+   width:100%;
+  z-index: -1;
+  capacity:0.89;
+    }
+
+ #home h1{
+
+      color:black;
+     text-align:center;
+
+    }
+
+     #home p{
+
+      color:black;
+     text-align:center;
+      font-size:1.5rem;
+
+    }
+
+    #services{
+       margin:34px;
+       display:flex;
+   }
+
+   #services .box{
+
+          border:2px solid brown;
+        padding: 34px;
+        margin: 3px 6px;
+        border-radius: 28px;
+        background: #f2f2f2;
+     
+   }
+   #services .box img{
+
+  
+     height:200px;
+      margin:auto;
+     display:block;
+    }
+   #services{}
+   #services{}
+   #services{}
+
+
+  .h-primary{
+
+      font-size:2.8rem;
+      padding:12px;
+      
+   }
+
+ 
+   .h-secondary{
+
+      font-size:2.8rem;
+      padding:12px;
+      
+   }
+
+ .center{
+     text-align:center
+  }
+   
+
+    
+ .btn{
+      padding:6px 20px;
+border:2px black;
+background-color:brown;
+color:white;
+margin: 17px;
+font-size:1.6rem;
+border-radius:10px;
+  }
